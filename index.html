@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width =device-width, initial-scale=1.0">
+    <title>Devika Pillai</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b129152e6c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class ="container">
+            <nav>
+                <img src = "images/DP.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+    <!--------------------ABOUT--------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Devika.png" alt="Devika's Photo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Welcome to my corner of the internet! I'm Devika Pillai, and I'm all about uncovering insights and tackling complex 
+                        problems with innovative data-driven solutions. My projects cover everything from data analysis and visualization to 
+                        predictive modeling and deep learning, all aimed at making informed decisions that really matter. 
+                        I thrive on the power of data and artificial intelligence to turn ideas into action. <br><br>
+
+                        When I’m not crunching numbers or diving into algorithms, you can find me on the badminton court or playing squash. 
+                        I also love building with Lego—there’s something about putting the pieces together that really speaks to me! And since I was young, 
+                        I've always had a knack for solving puzzles. <br><br>
+
+                        Explore my work, and let’s unlock the endless possibilities that data and AI offer—together!
+                    </p>
+                    <a href="Devika Pillai Resume.pdf" download>
+                        <button class="download-btn">Download Resume</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------EDUCATION--------------------->
+    <div id="education">
+        <div class="container">
+            <h1 class="sub-title">Education</h1>
+            <div class = "edu-list", style="text-align: center;">
+                <div>
+                    <img src="images/rit.png" alt="RIT Logo" height="70">
+                    <h2>Rochester Institute of Technology</h2>
+                    <p>Relevant Coursework: Non-relational & relational Database Management, Statistics, Foundation of Data Science & Analytics, Software Construction</p>
+                    <p>GPA: 3.78</p>
+                </div>
+                <div>
+                    <img src="images/nmims.png" alt="NMIMS Logo" height="70">
+                    <h2>NMIMS Mukesh Patel School of Technology Management and Engineering</h2>
+                    <p>Relevant Coursework: Machine Learning, Deep Learning, Database Management Systems, Mathematics</p>
+                    <p>GPA: 3.60</p>
+                </div>
+            </div>
+        </div>       
+    </div>
+
+    <!--------------------EXPERIENCE--------------------->
+    <div id="experience">
+        <div class="container">
+            <h1 class="sub-title">Experience</h1>
+            <div class = "edu-list", style="text-align: center;">
+                <div>
+                    <img src="images/rit.png" alt="RIT Logo" height="70">
+                    <h2>Graduate Grader</h2>
+                    <p>01/2024 – 05/ 2024</p>
+                    <p>▪ Evaluated coursework for the statistics department, ensuring accurate calculations and adherence to methodology. <br>
+                    ▪ Clarified concepts like hypothesis testing and ANOVA with real-world examples, providing feedback and conducting exam review sessions.<br></p>
+                </div>
+                <div>
+                    <img src="images/iail.jpg" alt="NMIMS Logo" height="70">
+                    <h2>iAssist Innovation Labs</h2>
+                    <p>05/2021 – 06/2021</p>
+                    <p>▪ Used Python-based OCR to extract and convert hospital datasets from PDFs to Excel, streamlining data processing.<br>
+                        ▪ Improved data precision for major insurers and resolved OCR bugs, boosting detection accuracy from 70% to 82%. </p>
+                </div>
+            </div>
+        </div>       
+    </div>
+
+    <!--------------------PROJECTS--------------------->
+   <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="images/deepfake.jpg">
+                    <div class="layer">
+                        <h3>Unmasked - <br>In-depth analysis of deepfake detection models</h3>
+                        <p>Coming Soon...</p>
+                    </div>
+                </div>
+
+                <div class="work">
+                        <img src = "images/yt.png">
+                        <div class="layer">
+                            <h3>AI Youtube Video Summarizer</h3>
+                            <p>Automated YouTube video summarization and generated concise summaries using AI</p>
+                            <a href ="https://github.com/devikapillai30/Youtube-Video-Summarizer-using-AI.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                </div>
+
+                <div class="work">
+                    <img src = "images/customer.jpg">
+                    <div class="layer">
+                        <h3>Predicting NPS Score using R and Tableau</h3>
+                        <p>Performed analytics to predict Net Promoter Score (NPS) and enhance customer satisfaction using various models in R and used Tableau for visualization</p>
+                        <a href ="https://github.com/devikapillai30/Enhancing-Customer-Satisfaction-using-Predictive-Analytics-for-NPS-Score.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                
+            </div>
+            <a href="projects.html" class="btn" target="_blank">See more</a>
+
+        </div>
+   </div> 
+
+   <!--------------------CONTACT--------------------->
+   <div id ="contact">
+        <div class ="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class = "sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> dp7144@rit.edu</p>
+                    <p><i class="fa-solid fa-phone"></i> (585)606-0713</p>
+                    <div class="social-icons">
+                        <a href ="https://www.linkedin.com/in/devika-pillai-471423182/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href ="https://github.com/devikapillai30"><i class="fa-brands fa-github"></i></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name = "submit-to-google-sheet">
+                        <input type ="text" name= "Name" placeholder="Your Name" required>
+                        <input type ="email" name= "Email" placeholder="Your Email" required>
+                        <textarea name ="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class ="btn btn2">Submit</button>
+                    </form>
+                    <span id ="msg"></span>
+                </div>
+            </div>
+        </div>
+   </div>
+
+   <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+   </script>
+      
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbySRRvvX0VWfst8SNxaShsSINz6YvxyNlM59UsfKYfNU21MeNBC5Sy02N6gHDSB2k_Jew/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
+
